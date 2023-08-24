@@ -11,5 +11,14 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest'
-  }
+  },
+  overrides: [
+    {
+      files: ['**/*.vue'],
+      rules: {
+        '@typescript-eslint/no-unused-vars': ['error'],
+        'vue/multi-word-component-names': 'off',
+      }
+    }
+  ]
 }
