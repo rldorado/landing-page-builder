@@ -10,24 +10,7 @@ export const useBlockStore = defineStore('block', () => {
     
     // STATE
     
-    const blocks = ref<Block[]>([
-        {
-          type: 'Text',
-          content: 'Sample Text Block 1'
-        },
-        {
-          type: 'Image',
-          content: 'https://picsum.photos/200'
-        },
-        {
-          type: 'Text',
-          content: 'Sample Text Block 2'
-        },
-        {
-          type: 'Image',
-          content: 'https://picsum.photos/200'
-        }
-    ]);
+    const blocks = ref<Block[]>([]);
 
     // ACTIONS
 

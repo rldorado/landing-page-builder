@@ -14,7 +14,18 @@ defineEmits(['delete', 'duplicate']);
             @input="(newValue) => $emit('update:content', newValue)"
             class="mb-2"
         ></div>
-        <button class="px-2 py-1 bg-red text-white rounded" @click="$emit('delete')">Delete</button>
-        <button class="px-2 py-1 bg-green text-white rounded ml-2" @click="$emit('duplicate')">Duplicate</button>
+        <div>
+            <button
+                class="px-2 py-1 bg-red text-white rounded"
+                @click="$emit('delete')">
+                Delete
+            </button>
+            <button 
+                class="px-2 py-1 bg-green text-white rounded ml-2"
+                @click="$emit('duplicate')">
+                Duplicate
+            </button>
+        </div>
+
     </div>
 </template>
