@@ -4,7 +4,7 @@ import DragContainer from '@/components/DragContainer.vue';
 </script>
 
 <template>
-  <main>
+  <main class="p-10">
     <DragContainer />
   </main>
 </template>

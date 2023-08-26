@@ -7,7 +7,7 @@ defineEmits(['delete', 'duplicate']);
 </script>
 
 <template>
-    <div class="text-block border border-green-light p-4 m-2">
+    <div class="text-block border border-blue-light p-4 m-2">
         <div
             contenteditable="true"
             :textContent="content"

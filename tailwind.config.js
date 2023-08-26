@@ -1,6 +1,3 @@
-/* eslint-env node */
-require('@rushstack/eslint-patch/modern-module-resolution')
-
 /*
 
 Tailwind - The Utility-First CSS Framework
