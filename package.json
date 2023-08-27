@@ -13,7 +13,9 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false"
   },
   "dependencies": {
-    "pinia": "^2.1.6",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
     "vue": "^3.3.4",
     "vuedraggable": "^4.1.0"
   },
@@ -32,6 +34,7 @@
     "eslint-plugin-vue": "^9.16.1",
     "jsdom": "^22.1.0",
     "npm-run-all": "^4.1.5",
+    "pinia": "^2.1.6",
     "prettier": "^3.0.0",
     "tailwindcss": "^0.6.1",
     "typescript": "~5.1.6",

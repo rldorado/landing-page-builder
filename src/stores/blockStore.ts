@@ -35,16 +35,11 @@ export const useBlockStore = defineStore('block', () => {
         }
     }
 
-    // GETTERS
-
-    const totalBlocks = () : number => blocks.value.length;
-
     return {
         blocks,
         addBlock,
         deleteBlock,
         updateBlockContent,
         duplicateBlock,
-        totalBlocks,
     }
 });

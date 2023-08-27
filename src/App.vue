@@ -18,8 +18,9 @@ const addDefaultBlocks = () => {
 </script>
 
 <template>
-  <main class="p-4">
-    <h1 class="text-2xl mb-4">Vue Landing Page Builder</h1>
+  <main class="container mx-auto px-4 sm:px-6 lg:px-8 mt-10">
+    <h1 class="text-2xl font-bold mb-2">Vue Landing Page Builder</h1>
+    <p class="mb-5">Drag and drop blocks to design your page. Create default blocks to play with.</p>
 
     <button
       class="mb-4 px-4 py-2 bg-orange-light text-white rounded"
